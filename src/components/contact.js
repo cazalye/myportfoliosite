@@ -8,7 +8,8 @@ class Contact extends Component {
                     <Cell col="6">
                         <h2>Emma Cazaly</h2>
                         <img src="img/Me.jpg" alt="me" style={{height:'250px'}}/>
-                        <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit ipsum lorem dolor sit</p>
+                        <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>I'm a designer and front-end developer with a passion for photography and travel.
+                         ..."I'm a designer who codes" seems to be a catchy phrase thrown about by people like Andrew Couldwell & Meagan Fisher</p>
                     </Cell>
                     <Cell col="6">
                         <h2>Contact Me</h2>
@@ -18,19 +19,13 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent className="list-item-content">
                                        <i className="fa fa-phone-square" aria-hidden="true"></i>
-                                       +358 123 456
+                                            <a href="tel: +358-417077974">+358-417077974</a>
                                      </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent className="list-item-content">
-                                        <i className="fa fa-fax" aria-hidden="true"></i>
-                                        358 123 456
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent className="list-item-content">
                                         <i className="fa fa-envelope" aria-hidden="true"></i>
-                                        me@gmail.com
+                                        e.cazaly7@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                             </List>
