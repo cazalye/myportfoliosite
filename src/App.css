@@ -110,6 +110,7 @@
 .resume-right-col {
   background: #27221f;
   color: white; 
+  padding: 2em;
 }
 
 .resume-col-content {
@@ -120,7 +121,7 @@
   height: 200px;
 }
 
-.resume-col h2 {
+.resume-left-col h2 {
   padding-top: 2em;
 }
 
@@ -129,5 +130,9 @@
   border-top: none;
   border-bottom: 3px solid #833fb2;
   width:50%;
+}
+
+.education-year h4 {
+  margin-top: 0px;
 }
 
