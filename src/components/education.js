@@ -6,7 +6,7 @@ class Education extends Component {
         return(
             <Grid className='education-year'>
                 <Cell col={4}>
-                    <p>{this.props.startYear}-{this.props.endYear}</p>
+                    <p>{this.props.startYear} - {this.props.endYear}</p>
                 </Cell>
                 <Cell col={8}>
                     <h4>{this.props.schoolName}</h4>

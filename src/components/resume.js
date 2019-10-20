@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
     render() {
@@ -45,9 +46,40 @@ class Resume extends Component {
                         />
                         <hr/>
                         <h2>Experience</h2>
-                        <Experience>
-
-                        </Experience>
+                        <Experience
+                            startYear="June"
+                            endYear="Sep 2016"
+                            jobName="Marketing Assistant"
+                            jobDescription="Decription of responsibilities and outcomes"
+                        />
+                        <Experience
+                            startYear={2017}
+                            endYear={2019}
+                            jobName="Post-doctoral Researcher"
+                            jobDescription="Decription of responsibilities and outcomes"
+                        />
+                         <hr/>
+                         <h2>Skills</h2>
+                        <Skills
+                            skill="html"
+                            progress={30}
+                        />
+                        <Skills
+                            skill="css"
+                            progress={20}
+                        />
+                        <Skills
+                            skill="JavaScript"
+                            progress={10}
+                        />
+                        <Skills
+                            skill="React"
+                            progress={5}
+                        />
+                        <Skills
+                            skill="Adobe"
+                            progress={50}
+                        />
                     </Cell>
                 </Grid>
             </div>
@@ -56,3 +88,4 @@ class Resume extends Component {
 }
 
 export default Resume;
+
