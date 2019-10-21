@@ -36,12 +36,15 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  margin-top: 50px;
+  padding: 40px;
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
+  margin-top: 0px;
 }
 
 .banner-text hr {
@@ -155,5 +158,17 @@
 .resume-skill-progress{
   margin: auto;
   width: 75%;
+}
+
+@media (max-width: 576px) {
+  .mdl-layout .mdl-grid {
+    padding: 0px;
+  }
+  .banner-text {
+    width: 70%;
+  }
+  .banner-text h1{
+    font-size: 34px;
+  }
 }
 
