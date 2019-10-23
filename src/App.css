@@ -1,9 +1,10 @@
+/* Nav Bar */
 .header-color {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.4;
 }
-
 .header-title {
   text-decoration: none;
   color: white;
@@ -13,6 +14,8 @@
   color: black;
 }
 
+
+/* Landing Page */
 .landing-grid {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -24,12 +27,10 @@
   width:100%;
   height: 100%;
 }
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
 }
-
 .banner-text {
   background-color: black;
   opacity: .8;
@@ -39,43 +40,39 @@
   margin-top: 50px;
   padding: 40px;
 }
-
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
   margin-top: 0px;
 }
-
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
-
 .banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
 }
-
 .social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
 }
-
 .social-links i {
   color: white;
   font-size: 5em;
   padding: 8px;
 }
 
+
+/* Contact Page */
 .content > div {
   display: flex;
 }
-
 .contact-body {
   margin: auto;
   position: fixed;
@@ -84,7 +81,6 @@
   justify-content: center;
   padding-top: 2em;
 }
-
 .contact-grid {
   text-align: center;
   justify-content: center;
@@ -94,7 +90,6 @@
   color: black;
   margin-bottom: 20px;
 }
-
 .contact-grid h2{
   font-family: 'Anton', sans-serif;
 }
@@ -107,16 +102,15 @@
   width: 50%;
   margin: auto;
 }
-
 .list-item-content {
   font-size: 30px;
   font-family: 'Anton';
 }
-
 .contact-list i{
   font-size: 66px;
   padding-right: 5rem;
 }
+
 
 /* Resume Page */
 .resume-right-col {
@@ -124,41 +118,64 @@
   color: white; 
   padding: 2em;
 }
-
 .resume-col-content {
   text-align: center;
 }
-
 .resume-col-content img {
   height: 200px;
 }
-
 .resume-left-col h2 {
   padding-top: 2em;
 }
-
 .resume-col hr {
   color: grey;
   border-top: none;
   border-bottom: 3px solid #833fb2;
   width:50%;
 }
-
 .education-year h4, .experience-year h4 {
   margin-top: 0px;
 }
-
 .resume-skill-col{
   display: flex;
 }
 .resume-skill-col span {
   width: 100px;
 }
-
 .resume-skill-progress{
   margin: auto;
   width: 75%;
 }
+
+
+/* About Me Page */
+.aboutme-background{
+  background-image: url("/img/Autumn-2.jpg");
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  opacity: 0.8;
+  z-index:-1;
+}
+.aboutme-text{
+  margin-top: 30%;
+  margin-left: 10%;
+  margin-right: 5%;
+  text-align: center;
+  opacity:1;
+}
+.aboutme-text h1{
+  margin-bottom: 0px;
+}
+.aboutme-text p{
+  font-size: 25px;
+}
+
+
+/* Responsive Design */
 
 @media (max-width: 576px) {
   .mdl-layout .mdl-grid {
@@ -171,4 +188,6 @@
     font-size: 34px;
   }
 }
+
+
 
