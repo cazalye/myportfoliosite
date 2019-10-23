@@ -47,17 +47,32 @@ class Resume extends Component {
                         <hr/>
                         <h2>Experience</h2>
                         <Experience
-                            startYear="June"
-                            endYear="Sep 2016"
-                            jobName="Marketing Assistant"
-                            jobDescription="Decription of responsibilities and outcomes"
-                        />
-                        <Experience
                             startYear={2017}
                             endYear={2019}
                             jobName="Post-doctoral Researcher"
                             jobDescription="Decription of responsibilities and outcomes"
                         />
+                        <Experience
+                            startYear={2012}
+                            endYear={2016}
+                            jobName="PhD Candidate"
+                            jobDescription="A cross-disciplinary wet lab & bioinformatics PhD examining genetic and epigenetic predisposition to familial prostate cancer."
+                        />
+
+                        <Experience
+                            startYear={2013}
+                            endYear={2016}
+                            jobName="Tertiary Level Teaching"
+                            jobDescription="Throughout my PhD candidature I engaged in casual teaching roles including tutoring, laboratory demonstrating and marking."
+                        />
+
+                        <Experience
+                            startYear="June"
+                            endYear="Sep 2016"
+                            jobName="Marketing Assistant"
+                            jobDescription="Decription of responsibilities and outcomes"
+                        />
+
                          <hr/>
                          <h2>Skills</h2>
                         <Skills
