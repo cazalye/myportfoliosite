@@ -7,9 +7,8 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col="6">
                         <h2>Emma Cazaly</h2>
-                        <img src="img/Me.jpg" alt="me" style={{height:'250px'}}/>
-                        <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>I'm a designer and front-end developer with a passion for photography and travel.
-                         ..."I'm a designer who codes" seems to be a catchy phrase thrown about by people like Andrew Couldwell & Meagan Fisher</p>
+                        <p> A designer who codes</p>
+                        <img src="/img/Me_portrait.jpg" alt="me" style={{height:'320px'}}/>
                     </Cell>
                     <Cell col="6">
                         <h2>Contact Me</h2>

@@ -10,7 +10,7 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0){
             return(
-                <div>
+                <div className="project-background">
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Portfolio </CardTitle>
                         <CardText>
