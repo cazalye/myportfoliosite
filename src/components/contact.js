@@ -5,14 +5,12 @@ class Contact extends Component {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col="6">
-                        <h2>Emma Cazaly</h2>
-                        <p> A designer who codes</p>
+                    <Cell col={8}>
                         <img src="/img/Me_portrait.jpg" alt="me" style={{height:'320px'}}/>
                     </Cell>
-                    <Cell col="6">
-                        <h2>Contact Me</h2>
-                        <hr/>
+                    <Cell className="contact-grid-cell-right" col={4}>
+                        <h2>Contact Me </h2>
+                        {/* <p> A designer who codes</p> */}
                         <div className="contact-list">
                             <List>
                                 <ListItem>
