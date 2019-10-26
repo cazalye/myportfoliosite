@@ -156,7 +156,8 @@
 
 
 /* Projects Page */
-.projects-background {
+.project-background {
+  display:flex;
   background-image: url("/img/Mountains_Background.jpg");
   background-size: cover;
   height: 100%;
