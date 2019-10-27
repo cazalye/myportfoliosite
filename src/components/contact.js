@@ -9,10 +9,10 @@ class Contact extends Component {
                 </div>
                 <div className="right-box">
                     <h2>Contact Me </h2>
-                    <i className="fa fa-phone-square" aria-hidden="true"></i>
-                    <a href="tel: +358-417077974">+358-417077974</a>
-                    <i className="fa fa-envelope" aria-hidden="true"></i>
-                    <a href="mailto:e.cazaly7@gmail.com">e.cazaly7@gmail.com</a>
+                    <h5> <strong>Address:</strong> Hameentie 27D 95</h5>
+                    <h5> <strong>Phone:</strong> +358 417077974</h5>
+                    <h5> <strong>Email:</strong> e.cazaly7@gmail.com </h5>
+                    <h5> <strong>Web:</strong> cazalye.com</h5>
                 </div>
                 <div className="contact-edge"/>
             </div>

@@ -26,11 +26,9 @@ header.header-color {
   color: black;
   letter-spacing: 0px;
 }
-
 a.header-title:hover{
   color: #b88778;
 }
-
 .header-title-drawer{
   text-decoration: none;
   color: black;
@@ -62,9 +60,7 @@ a.header-title:hover{
   opacity: 0.8;
   z-index: -1;
   text-align: center;
-  position: fixed;
 }
-
 .banner-text {
   text-align: right;
   /* background-color: rgba(32, 58, 67, 0.58); */
@@ -123,25 +119,58 @@ a.header-title:hover{
 
 
 /* Resume Page */
-.resume-right-col {
-  background: #27221f;
-  color: white; 
-  padding: 2em;
+.mdl-layout__content{
+  height:100%;
 }
+
+.resume-grid{
+  /* filter: saturate(1); */
+  background-image: url("/img/Background_Mountains_muted.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity:0.8;
+  z-index: -1;
+}
+.resume-grid .resume-left-col{
+  height: 29%;
+  padding: 4em;
+  padding-top: 1em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  background-color: rgb(255,255,255,0.5);
+  opacity: 0.8;
+  margin-top: 56px;
+  border-radius: 3px;
+}
+.resume-grid .resume-right-col {
+  background: rgb(0,0,0,0.8);
+  color: white; 
+  padding: 4em;
+  padding-top: 1em;
+  margin-top: 56px;
+  overflow-y: scroll;
+  height: calc(100% - 66px);
+}
+.resume-grid .resume-left-col h2{
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+/* .resume-grid .resume-left-col h5{
+  margin-top: 2px;
+} */
 .resume-col-content {
   text-align: center;
-}
-.resume-col-content img {
-  height: 200px;
-}
-.resume-left-col h2 {
-  padding-top: 2em;
 }
 .resume-col hr {
   color: grey;
   border-top: none;
-  border-bottom: 3px solid #833fb2;
-  width:50%;
+  border-bottom: 1.5px solid rgb(70, 85, 88);
+  width:64%;
+  margin-top:0.5em;
 }
 .education-year h4, .experience-year h4 {
   margin-top: 0px;

@@ -7,28 +7,13 @@ import Skills from './skills';
 class Resume extends Component {
     render() {
         return(
-            <div>
-                <Grid>
+                <Grid className="resume-grid">
                     <Cell className="resume-col resume-left-col" col={4}> 
-                        <div className="resume-col-content">
-                            <img src="https://image.shutterstock.com/image-vector/woman-working-laptop-character-260nw-1044466321.jpg"
-                                alt="avatar"/>
-                        </div>
-                        
+                        <div className="resume-col-content"></div>      
                         <h2>Emma Cazaly</h2>
-                        <h4>Designer</h4>
                         <hr/>
-                        <p>lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet</p>
-                        <hr/>
-                        <h5>Address</h5>
-                        <p>Hameentie 27D 95</p>
-                        <h5>Phone</h5>
-                        <p>+358 417077974</p>
-                        <h5>Email</h5>
-                        <p>e.cazaly7@gmail.com</p>
-                        <h5>Web</h5>
-                        <p>cazalye.com</p>
-                        <hr/>
+                        <h5>A designer who codes</h5>
+                        <p>I create inspiring websites, evocative designs and catchy copy. My work centers around adventure, conscious living and environmental awareness.</p>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}> 
                         <h2>Education</h2>  
@@ -58,21 +43,18 @@ class Resume extends Component {
                             jobName="PhD Candidate"
                             jobDescription="A cross-disciplinary wet lab & bioinformatics PhD examining genetic and epigenetic predisposition to familial prostate cancer."
                         />
-
                         <Experience
                             startYear={2013}
                             endYear={2016}
                             jobName="Tertiary Level Teaching"
                             jobDescription="Throughout my PhD candidature I engaged in casual teaching roles including tutoring, laboratory demonstrating and marking."
                         />
-
                         <Experience
                             startYear="June"
                             endYear="Sep 2016"
                             jobName="Marketing Assistant"
                             jobDescription="Decription of responsibilities and outcomes"
                         />
-
                          <hr/>
                          <h2>Skills</h2>
                         <Skills
@@ -97,7 +79,6 @@ class Resume extends Component {
                         />
                     </Cell>
                 </Grid>
-            </div>
         )
     }
 }
