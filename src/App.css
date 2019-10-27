@@ -1,12 +1,13 @@
-
-
-/* NEED to crop this image in photoshop then add to desired pages separately */
-
-/* site layout
-.mdl-layout__content{
-  background-image: url("/img/Mountains_Background.jpg");
-} */
-
+/* Body */
+body h1 {
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+body h2, body h3, body h4, body p, body span, body div, body a {
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
 
 body, body h1, body h2, body h3, body h4, body p, body span, body div, body a {
   font-family: 'Open Sans', sans-serif;
