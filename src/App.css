@@ -8,20 +8,34 @@
 } */
 
 
+body, body h1, body h2, body h3, body h4, body p, body span, body div, body a {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Nav Bar */
-.header-color {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.4;
+header.header-color {
+  background: none;
+  background-color: rgba(0,0,0,0.05);
+  opacity: 1;
+  /* background: #0F2027;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* opacity: 0.4; */
 }
 .header-title {
   text-decoration: none;
-  color: white;
+  color: black;
+  letter-spacing: 0px;
 }
 .header-title-drawer{
   text-decoration: none;
+  color: black;
+}
+.mdl-layout .mdl-navigation a {
+  color: #555;
+  text-transform: uppercase;
+}
+.material-icons {
   color: black;
 }
 
@@ -29,6 +43,7 @@
 
 /* Landing Page */
 .landing-grid {
+  filter: saturate(1);
   background-image: url("/img/Mountains_Background.jpg");
   background-size: cover;
   height: 100%;
@@ -43,6 +58,7 @@
 }
 
 .banner-text {
+  text-align: right;
   /* background-color: rgba(32, 58, 67, 0.58); */
   /* background-color: white; */
   opacity: 1;
@@ -58,11 +74,14 @@
   font-weight: bold;
   margin-top: 0px;
   color: black;
+  font-weight: 100;
+  font-size: 71px;
 }
 .banner-text h2 {
   font-size: 30px;
   margin-top: 0px;
-  color: black;
+  color: #222;
+  margin-bottom: 0px;
 }
 .banner-text hr {
   border-top: 3px dotted black;
@@ -74,6 +93,9 @@
   font-size: 20px;
   padding: 1em;
   color: black;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-size: 16px;
 }
 .social-links {
   display: flex;
