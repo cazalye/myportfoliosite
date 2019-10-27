@@ -10,7 +10,7 @@ class Landing extends Component {
                             <h1> Emma Cazaly</h1>
                             <h2>Web Designer & Front-end Developer</h2>
                             {/* <hr/> */}
-                            <p> HTML/CSS | JavaScript | React | Shopify? | Adobe Suite | Photography </p>
+                            <p> HTML/CSS | JavaScript | React | Shopify | Adobe Suite | Photography </p>
                             <div className="social-links"> 
                                 {/* <a href="htps://google.com" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin" aria-hidden="true" />

@@ -4,14 +4,12 @@ body h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
-body h2, body h3, body h4, body p, body span, body div, body a {
+body h1, body h2, body h3, body h4, body p, body span, body div, body a {
   /* font-family: 'Source Sans Pro', sans-serif; */
   font-family: 'Raleway', sans-serif;
-}
-
-body, body h1, body h2, body h3, body h4, body p, body span, body div, body a {
   font-family: 'Open Sans', sans-serif;
 }
+
 
 /* Nav Bar */
 header.header-color {
@@ -28,12 +26,21 @@ header.header-color {
   color: black;
   letter-spacing: 0px;
 }
+
+a.header-title:hover{
+  color: #b88778;
+}
+
 .header-title-drawer{
   text-decoration: none;
   color: black;
 }
 .mdl-layout .mdl-navigation a {
   color: #555;
+  text-transform: uppercase;
+}
+.mdl-layout .mdl-navigation a:hover {
+  color: #b88778;
   text-transform: uppercase;
 }
 .material-icons {
@@ -74,6 +81,7 @@ header.header-color {
   font-size: 50px;
   font-weight: bold;
   margin-top: 0px;
+  margin-bottom: 15px;
   color: black;
   font-weight: 100;
   font-size: 71px;
