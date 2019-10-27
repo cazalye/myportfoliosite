@@ -44,7 +44,7 @@ header.header-color {
 /* Landing Page */
 .landing-grid {
   filter: saturate(1);
-  background-image: url("/img/Mountains_Background.jpg");
+  background-image: url("/img/Background_Mountains_muted.jpg");
   background-size: cover;
   height: 100%;
   width: 100%;
