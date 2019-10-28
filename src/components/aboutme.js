@@ -13,6 +13,7 @@ class About extends Component {
                         <h1>About Me</h1>
                         <p>I am a designer and front-end developer with a passion for photography and travel. I create evocative websites, catchy copy and inspiring stationery. My work centers around adventure, conscious living and environmental awareness.
                         </p>
+                        <a href="https://www.cazalye.com">Visit me at cazalye.com</a>
                     </div>
                 </Cell>
             </Grid>

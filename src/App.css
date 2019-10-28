@@ -214,17 +214,24 @@ a.header-title:hover{
 }
 .aboutme-text{
   margin-top: 30%;
-  margin-left: 10%;
-  margin-right: 5%;
-  text-align: center;
+  margin-left: 5%;
+  margin-right: 15%;
+  text-align: left;
   opacity:1;
 }
 .aboutme-text h1{
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .aboutme-text p{
   font-size: 25px;
+  margin-bottom:20px;
 }
+.aboutme-text a{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.7);
+}
+
 
 
 
