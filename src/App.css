@@ -235,18 +235,48 @@ a.header-title:hover{
 
 
 /* Contact Page */
-.contact-container{
+.contact-background{
+  background-image: url("/img/Background_Mountains_muted.jpg");
+  background-size: cover;
+  height: 100%;
   width: 100%;
-  background-color: rgba(255,255,255,0.4);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.8;
+  z-index: -1;
 }
-.contact-container > * {
-  float:left; 
-  width: 50%;
+.contact-container{
+  background-color: rgb(255,255,255,0.5);
+  width:100%;
 }
-.contact-edge{
-  float:none;
-  clear:both;
+.contact-content{
+  text-align: right;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 64px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+.contact-content h1{
+  text-align:right;
+  margin-bottom:0em;
+  margin-top: 0em;
+}
+.contact-content hr{
+  border-top: 2px solid rgb(0,0,0,0.8);
+  width:277px;
+  text-align: right;
+  margin-right:0em;
+  margin-left:auto;
+  padding-bottom:1em;
+}
+.contact-content h4 {
+  margin-top: 1em;
+}
+
+
+
 
 
 
