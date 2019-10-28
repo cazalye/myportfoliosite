@@ -48,6 +48,14 @@ a.header-title:hover{
 
 
 /* Landing Page */
+.ghost-me {
+  display: none;
+  width: 0px;
+  height: 0px;
+}
+.ghost-me-active {
+  background-image: url("/img/Me_autumn.jpg");
+}
 .landing-grid {
   filter: saturate(1);
   background-image: url("/img/Background_Mountains_muted.jpg");
