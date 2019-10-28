@@ -123,7 +123,7 @@ a.header-title:hover{
   height:100%;
 }
 
-.resume-grid{
+.mdl-grid.resume-grid{
   /* filter: saturate(1); */
   background-image: url("/img/Background_Mountains_muted.jpg");
   background-size: cover;
@@ -134,6 +134,7 @@ a.header-title:hover{
   left: 0px;
   opacity:0.8;
   z-index: -1;
+  padding: 0px;
 }
 .resume-grid .resume-left-col{
   height: 29%;
@@ -143,7 +144,7 @@ a.header-title:hover{
   padding-left: 1.5em;
   background-color: rgb(255,255,255,0.5);
   opacity: 0.8;
-  margin-top: 56px;
+  margin-top: 64px;
   border-radius: 3px;
 }
 .resume-grid .resume-right-col {
@@ -151,7 +152,7 @@ a.header-title:hover{
   color: white; 
   padding: 4em;
   padding-top: 1em;
-  margin-top: 56px;
+  margin-top: 64px;
   overflow-y: scroll;
   height: calc(100% - 66px);
 }
@@ -159,9 +160,6 @@ a.header-title:hover{
   margin-top: 2px;
   margin-bottom: 20px;
 }
-/* .resume-grid .resume-left-col h5{
-  margin-top: 2px;
-} */
 .resume-col-content {
   text-align: center;
 }
