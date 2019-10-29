@@ -1,6 +1,5 @@
 import React from 'react';
 import {Layout, Navigation, Header, Drawer, Content} from 'react-mdl';
-import logo from './logo.svg';
 import './App.css';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
