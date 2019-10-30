@@ -12,10 +12,8 @@ class Resume extends Component {
         return(
                 <Grid className="resume-grid">
                     <Cell className="resume-col resume-left-col" col={4}> 
-                        <h2>Emma Cazaly</h2>
-                        <hr/>
-                        <h5>A designer who codes</h5>
-                        <p>I create inspiring websites, evocative designs and catchy copy. My work centers around adventure, conscious living and environmental awareness.</p>
+                        <h1>A designer who codes</h1>
+                        <h2>I create inspiring websites, evocative designs and catchy copy. My work centers around adventure, conscious living and environmental awareness.</h2>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}>
                         <h2>Skills</h2>

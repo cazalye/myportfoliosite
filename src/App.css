@@ -132,7 +132,7 @@ a.header-title:hover{
 }
 
 .mdl-grid.resume-grid{
-  /* filter: saturate(1); */
+  filter: saturate(1);
   background-image: url("/img/Background_Mountains_muted.jpg");
   background-size: cover;
   height: 100%;
@@ -145,12 +145,12 @@ a.header-title:hover{
   padding: 0px;
 }
 .resume-grid .resume-left-col{
-  height: 333px;
+  height: auto;
   padding: 4em;
   padding-top: 1em;
   padding-right: 1.5em;
   padding-left: 1.5em;
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(255,255,255,0.8);
   opacity: 0.8;
   margin-top: 64px;
   margin-left: 0px;
@@ -159,7 +159,7 @@ a.header-title:hover{
   width: 33.3333%;
 }
 .resume-grid .resume-right-col {
-  background: rgb(0,0,0,0.8);
+  background: rgb(0,0,0,0.9);
   color: white; 
   padding: 4em;
   padding-top: 1em;
@@ -170,9 +170,17 @@ a.header-title:hover{
   height: calc(100% - 66px);
   width: 66.6667%;
 }
+.resume-grid .resume-left-col h1{
+  color: black;
+  line-height: 58px;
+  padding-bottom: 30px;
+  width: 200px;
+}
 .resume-grid .resume-left-col h2{
-  margin-top: 2px;
-  margin-bottom: 20px;
+  color: rgba(0,0,0,0.8);
+  font-weight: 100;
+  font-size: 36px;
+  padding-right: 43px;
 }
 .resume-col-content {
   text-align: center;
@@ -262,7 +270,7 @@ a.header-title:hover{
 /* Projects Page */
 .project-background {
   display:flex;
-  background-image: url("/img/Mountains_Background.jpg");
+  background-image: url("/img/Background_Mountains_muted.jpg");
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -272,7 +280,6 @@ a.header-title:hover{
   opacity: 0.8;
   z-index: -1;
   text-align: center;
-  position: fixed;
 }
 
 
