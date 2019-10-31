@@ -12,14 +12,13 @@ class Projects extends Component {
             return(
                 <div className="project-background">
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Portfolio </CardTitle>
+                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Portfolio Website</CardTitle>
                         <CardText>
-                            Cazalye: my personal portfolio
+                            Created using React<br/>cazalye.com/portfolio
                         </CardText>
                         <CardActions border>
                             <Button colored> GitHub </Button>
-                            <Button colored> LiveDemo </Button>
-                            <Button colored> OTHER?? </Button>
+                            <Button colored> "website url" </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -28,12 +27,11 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Travel Blog </CardTitle>
                         <CardText>
-                            Viatrix: a travel blog sharing my adventures and advice as a solo female traveller
+                            Created using React & Wordpress<br/>cazalye.com/travel
                         </CardText>
                         <CardActions border>
                             <Button colored> GitHub </Button>
-                            <Button colored> LiveDemo </Button>
-                            <Button colored> OTHER?? </Button>
+                            <Button colored> "website url" </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -42,12 +40,11 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> E-commerce </CardTitle>
                         <CardText>
-                            Write it on Stone: an e-commerce site specialising in beautiful, ec-friendly stone paper stationery
+                            Created using React? & Shopify<br/>cazalye.com/shop
                         </CardText>
                         <CardActions border>
                             <Button colored> GitHub </Button>
-                            <Button colored> LiveDemo </Button>
-                            <Button colored> OTHER?? </Button>
+                            <Button colored> "website url" </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -64,25 +61,36 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Web Design </CardTitle>
                         <CardText>
-                            Design of Viatrix
+                            Design of Travel blog
                         </CardText>
                         <CardActions border>
-                            <Button colored> Photoshop </Button>
-                            <Button colored> InVision </Button>
+                            <Button colored> Photoshop / Adobe XD </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
                         </CardMenu>
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> 2020 Journal</CardTitle>
+                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Web Design </CardTitle>
+                        <CardText>
+                            Design of Digital photo diaries
+                        </CardText>
+                        <CardActions border>
+                            <Button colored> Photoshop / Adobe XD </Button>
+                        </CardActions>
+                        <CardMenu style={{color:'white'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Gratitude Journal</CardTitle>
                         <CardText>
                             Minimal yet beautiful stone paper journal
                         </CardText>
                         <CardActions border>
                             <Button colored> InDesign </Button>
-                            <Button colored> InVIsion? </Button>
-                            <Button colored> Photos? </Button>
+                            <Button colored> Photography + LR </Button>
+                            <Button colored> KDP </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -91,26 +99,23 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Postcards </CardTitle>
                         <CardText>
-                            Minimal, beautiful stone paper postcards
+                           xxxxxxxxxxx
                         </CardText>
                         <CardActions border>
-                            <Button colored> Photography </Button>
                             <Button colored> InDesign </Button>
-                            <Button colored> Demo? </Button>
+                            <Button colored> Photography + LR </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
                         </CardMenu>
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Logo & Business Cards </CardTitle>
+                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Logo </CardTitle>
                         <CardText>
-                            Minimal yet evocative logo design & business cards printed on stone paper
+                            Minimal yet evocative logo design
                         </CardText>
                         <CardActions border>
                             <Button colored> Illustrator </Button>
-                            <Button colored> InDesign </Button>
-                            <Button colored> Photos </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -125,7 +130,8 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                         <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Travel Blog </CardTitle>
                         <CardText>
-                            Viatrix: engaging, SEO optimised travel copy
+                            Engaging, SEO optimised travel copy
+                            some link to google rank?
                         </CardText>
                         <CardActions border>
                             <Button colored> Blog post 1 </Button>
@@ -137,14 +143,13 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> 2020 Journal </CardTitle>
+                        <CardTitle style={{color:'white', height:'176px', background:'url(https://cdn.dribbble.com/users/1242303/screenshots/3764479/day34.png) center/cover'}}> Gratitude Journal </CardTitle>
                         <CardText>
-                            2020 Journal: inspiring, minimal copy
+                            Gratitude Journal: inspiring, minimal copy
                         </CardText>
                         <CardActions border>
-                            <Button colored> snapshot 1 </Button>
-                            <Button colored> snapshot 2 </Button>
-                            <Button colored> snapshot 3 </Button>
+                            <Button colored> About Page </Button>
+                            <Button colored> Summary on KDP </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -161,7 +166,7 @@ class Projects extends Component {
                             Shot with: Sony a7
                         </CardText>
                         <CardActions border>
-                            <Button colored> Gallery </Button>
+                            <Button colored> Gallery 5 photos </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -173,7 +178,7 @@ class Projects extends Component {
                             Shot with: Canon AE1
                         </CardText>
                         <CardActions border>
-                            <Button colored> Gallery </Button>
+                            <Button colored> Gallery 5 photos </Button>
                         </CardActions>
                         <CardMenu style={{color:'white'}}>
                             <IconButton name='share'/>
@@ -193,6 +198,9 @@ class Projects extends Component {
                             <IconButton name='share'/>
                         </CardMenu>
                     </Card>
+
+{/* Add link to cazalye.com/photodiaries for more images */}
+
                 </div>
             )
         }

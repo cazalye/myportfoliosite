@@ -158,8 +158,11 @@ a.header-title:hover{
   border-radius: 3px;
   width: 33.3333%;
 }
+
+
 .resume-grid .resume-right-col {
-  background: rgb(0,0,0,0.9);
+  /* background: rgb(0,0,0,0.9); */
+  background: linear-gradient(180deg, rgba(0,0,0,0.95) 90%, rgba(0,0,0,0.8) 97%, rgba(0,0,0,0.7) 100%);
   color: white; 
   padding: 4em;
   padding-top: 1em;
@@ -167,9 +170,19 @@ a.header-title:hover{
   margin-left: 0px;
   margin-right: 0px;
   overflow-y: scroll;
-  height: calc(100% - 66px);
+  height: calc(100% - 65px);
   width: 66.6667%;
 }
+
+.resume-grid .resume-right-col .material-icons{
+  font-size: 36px;
+  /* margin-top: 658px; */
+  margin-left: -42px;
+  color: #ffc9b9;
+  opacity: 0.7;
+  z-index: 0;
+}
+
 .resume-grid .resume-left-col h1{
   color: black;
   line-height: 58px;
@@ -234,34 +247,41 @@ a.header-title:hover{
 
 /* About Me Page */
 .aboutme-background{
-  background-image: url("/img/Me_autumn.jpg");
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1),transparent), url("/img/Me_autumn_muted2.jpg");
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%,rgba(255, 255, 255, 0.1) 30%, transparent 80%), url("/img/Me_autumn_muted2.jpg"); */
+  /* background-image: url("/img/Me_autumn_muted2.jpg"); */
   background-size: cover;
+  width: 100%;
   height: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%;
-  opacity: 0.8;
+  opacity: 1;
   z-index:-1;
 }
+
+
 .aboutme-text{
-  margin-top: 30%;
-  margin-left: 5%;
+  margin-top: 24%;
+  margin-left: 8%;
   margin-right: 15%;
   text-align: left;
   opacity:1;
 }
 .aboutme-text h1{
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .aboutme-text p{
   font-size: 25px;
   margin-bottom:20px;
 }
 .aboutme-text a{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: rgba(0,0,0,0.7);
+}
+.aboutme-text hr{
+  border: none;
 }
 
 
