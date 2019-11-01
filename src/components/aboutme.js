@@ -17,7 +17,7 @@ class About extends Component {
                         <hr/>
                         <p> I hold both Australian and Italian citzenship.</p>
                         <hr/>
-                        <a href="https://www.cazalye.com">Visit me at cazalye.com</a>
+                        <a href="https://www.cazalye.com">Visit me at <strong>cazalye.com</strong></a>
                     </div>
                 </Cell>
             </Grid>

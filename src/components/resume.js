@@ -16,10 +16,9 @@ class Resume extends Component {
                         <h2>I create inspiring websites, evocative designs and catchy copy. My work centers around adventure, conscious living and environmental awareness.</h2>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}>
-                        <Tooltip label="Scroll Down" position="bottom">
-                            <Icon name="arrow_downward" />
-                        </Tooltip>
-                    
+                            <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
+                                <Icon name="arrow_downward" />
+                            </Tooltip>
                         <h2>Skills</h2>
                          <Skills
                             skill="Adobe Suite: Ps, Lr, Ai, Id, Xd"

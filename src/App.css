@@ -176,11 +176,15 @@ a.header-title:hover{
 
 .resume-grid .resume-right-col .material-icons{
   font-size: 36px;
-  /* margin-top: 658px; */
   margin-left: -42px;
   color: #ffc9b9;
   opacity: 0.7;
   z-index: 0;
+}
+.arrow-tooltip{
+display: inline-block;
+position: fixed;
+bottom: 0px;
 }
 
 .resume-grid .resume-left-col h1{
@@ -213,16 +217,18 @@ a.header-title:hover{
 }
 .resume-skill-col span {
   width: 100px;
+  color:#eee;
+
 }
 .resume-skill-col .mdl-progress .progressbar {
   /* background-color: rgb(63,81,181); */
-  background-color:rgba(184, 135, 120,1);
+  background-color:#fb9073;
   z-index: 1;
   left: 0;
 }
 .resume-skill-col .mdl-progress .bufferbar {
   background-image: none;
-  background-color:rgba(184, 135, 120,0.5);
+  background-color:rgba(255, 175, 151,0.2);
   z-index: 0;
   left: 0;
 } 
@@ -270,15 +276,17 @@ a.header-title:hover{
 }
 .aboutme-text h1{
   margin-bottom: 24px;
+  font-size: 66px;
 }
 .aboutme-text p{
   font-size: 25px;
   margin-bottom:20px;
+  color: #333;
 }
 .aboutme-text a{
   font-size: 25px;
-  font-weight: bold;
-  color: rgba(0,0,0,0.7);
+  color: #333;
+  text-decoration: none;
 }
 .aboutme-text hr{
   border: none;
