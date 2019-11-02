@@ -59,7 +59,7 @@ a.header-title:hover{
   background-image: url("/img/Me_autumn.jpg");
 }
 .landing-grid {
-  filter: saturate(1);
+  filter: saturate(1.2);
   background-image: url("/img/Background_Mountains_muted.jpg");
   background-size: cover;
   height: 100%;
@@ -67,7 +67,6 @@ a.header-title:hover{
   position: fixed;
   top: 0px;
   left: 0px;
-  opacity: 0.8;
   z-index: -1;
   text-align: center;
 }
@@ -152,8 +151,8 @@ a.header-title:hover{
   padding-top: 1em;
   padding-right: 1.5em;
   padding-left: 1.5em;
-  background-color: rgb(255,255,255,0.8);
-  opacity: 0.8;
+  background-color:#fb9073;
+  opacity: 0.9;
   margin-top: 64px;
   margin-left: 0px;
   margin-right: 0px;
@@ -174,6 +173,15 @@ a.header-title:hover{
   overflow-y: scroll;
   height: calc(100% - 65px);
   width: 66.6667%;
+}
+.resume-grid .resume-right-col h2{
+  color: #fb9073;
+}
+.resume-grid .resume-right-col h4{
+  margin-top: 0px;
+  color: #fb9073;
+  /* opacity: 0.8; */
+  filter: saturate(0.8);
 }
 
 .resume-grid .resume-right-col .material-icons{
@@ -210,10 +218,6 @@ bottom: 0px;
   border-top: none;
   border-bottom: 1.5px solid rgb(70, 85, 88);
   width:64%;
-  margin-top:0.5em;
-}
-.education-year h4, .experience-year h4 {
-  margin-top: 0px;
 }
 .resume-skill-col{
   display: flex;
@@ -221,8 +225,19 @@ bottom: 0px;
 .resume-skill-col span {
   width: 100px;
   color:#eee;
-
 }
+.resume-grid .resume-right-col span, .resume-grid .resume-right-col p{
+  font-size: 16px;
+  color: white;
+}
+.resume-grid .resume-right-col a{
+color:#fb9073;
+}
+.resume-grid .resume-right-col .publication-year a{
+color:white;
+}
+
+
 .resume-skill-col .mdl-progress .progressbar {
   /* background-color: rgb(63,81,181); */
   background-color:#fb9073; 
@@ -239,24 +254,12 @@ bottom: 0px;
   margin: auto;
   width: 75%;
 }
-.publication-year a {
-  color: #fff;
-}
-.award-year h4 {
-  margin-top: 0px;
-}
-.reference-name p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.reference-name a{
-  color: #ddd; 
-}
+
 
 
 /* About Me Page */
 .aboutme-background{
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1),transparent), url("/img/Me_autumn_muted2.jpg");
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1),transparent), url("/img/Me_autumn_muted2.jpg");
   /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%,rgba(255, 255, 255, 0.1) 30%, transparent 80%), url("/img/Me_autumn_muted2.jpg"); */
   /* background-image: url("/img/Me_autumn_muted2.jpg"); */
   background-size: cover;
@@ -271,11 +274,15 @@ bottom: 0px;
 
 
 .aboutme-text{
-  margin-top: 24%;
+  /* FIXME vertical align not with margin */
+  margin-top: 123px;
   margin-left: 8%;
   margin-right: 15%;
   text-align: left;
   opacity:1;
+}
+.aboutme-text h2 {
+  font-weight: 100;
 }
 .aboutme-text h1{
   margin-bottom: 24px;
@@ -283,13 +290,17 @@ bottom: 0px;
 }
 .aboutme-text p{
   font-size: 25px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   color: #333;
 }
 .aboutme-text a{
   font-size: 25px;
   color: #333;
   text-decoration: none;
+  font-weight: 400;
+}
+.aboutme-text a:hover {
+  color: #fb9073;
 }
 .aboutme-text hr{
   border: none;
