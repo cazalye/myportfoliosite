@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import FooterAlt from "./footerAlt";
 class About extends Component {
     render() {
         return(
@@ -20,6 +21,7 @@ class About extends Component {
                         <p>Visit me at <a href="https://www.cazalye.com">cazalye.com</a></p> 
                     </div>
                 </Cell>
+                <FooterAlt/>
             </Grid>
 
         )

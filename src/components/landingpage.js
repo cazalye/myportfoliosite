@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Footer from './footer';
+import FooterAlt from './footerAlt.js';
+
 class Landing extends Component {
     componentDidMount() {
         // preload the about me background image
@@ -24,7 +26,8 @@ class Landing extends Component {
                             <p> HTML/CSS | JavaScript | React | Shopify | Adobe Suite | Photography </p>
                         </div>
                     </div>
-                </div>    
+                </div>   
+                <FooterAlt/> 
             </div>
         )
     }

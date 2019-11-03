@@ -49,6 +49,30 @@ a.header-title:hover{
 }
 
 
+/* Footer */
+.footer-box{
+  height:40px;
+  /* width:584px; */
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  /* text-align: center; */
+  background-color: rgba(0,0,0,0.5);
+  padding-left: 20px;
+  left: 0px;
+}
+.footer-box h5{
+  color:white;
+  display: inline-block;
+  /* margin: 0 20px 0 20px; */
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.footer-box strong {
+  color: #fb9073;
+}
+
 
 /* FOOTER */
 .footer-links {
