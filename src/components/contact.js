@@ -5,12 +5,11 @@ class Contact extends Component {
             <div className="contact-background">
                 <div className="contact-container">
                     <div className="contact-content">
-                        <h2>Contact Me </h2>
+                        <h1>Contact Me </h1>
                         <hr/>
-                        <h5> <strong>Address:</strong> Hameentie 27D 95</h5>
-                        <h5> <strong>Phone:</strong> +358 417077974</h5>
-                        <h5> <strong>Email:</strong> e.cazaly7@gmail.com </h5>
-                        <h5> <strong>Web:</strong> cazalye.com</h5>
+                        <h5> <strong>Phone:</strong> <a href="tel:+358 417077974">  +358 417077974</a></h5>
+                        <h5> <strong>Email:</strong> <a href="mailto:e.cazaly7@gmail.com"> e.cazaly7@gmail.com </a></h5>
+                        <h5> <strong>Web:</strong> <a href="https://cazalye.com" rel="noopener noreferrer" target="_blank"> cazalye.com </a></h5>
                     </div>
                 </div>
             </div>
