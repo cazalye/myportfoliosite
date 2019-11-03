@@ -259,7 +259,7 @@ color:white;
 
 /* About Me Page */
 .aboutme-background{
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1),transparent), url("/img/Me_autumn_muted2.jpg");
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1),transparent), url("/img/Me_autumn_muted2.jpg");
   /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%,rgba(255, 255, 255, 0.1) 30%, transparent 80%), url("/img/Me_autumn_muted2.jpg"); */
   /* background-image: url("/img/Me_autumn_muted2.jpg"); */
   background-size: cover;
