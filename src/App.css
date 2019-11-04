@@ -309,7 +309,8 @@ color:white;
 /* Projects Page */
 .project-background {
   display:flex;
-  background-image: url("/img/Background_Mountains_muted.jpg");
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1),transparent), url("/img/Background_Mountains_muted.jpg");
+  background-size: cover;
   filter: saturate(1.2);
   background-size: cover;
   height: 100%;
@@ -321,6 +322,18 @@ color:white;
   text-align: center;
 }
 
+.project-background a{
+  color:black;
+  padding:10px;
+  font-size: 30px;
+}
+
+.mdl-card__supporting-text.CardText{
+  background-color: rgba(184, 135, 120, 0.7);
+  color: #333;
+  margin: 0px;
+  padding: 16px 18px;
+}
 
 
 /* Contact Page */

@@ -1,7 +1,7 @@
 // This whole file needs to be redone to have a proper MVC.
 
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText} from 'react-mdl';
 import {Categories} from '../data/projects.data';
 
 class Projects extends Component {
@@ -17,27 +17,25 @@ class Projects extends Component {
 
         for (let project of projects) {
 
-            let buttons_content = [];
-            for (let button of project.buttons) {
-                buttons_content.push(<Button colored> {button.text} </Button>);
-            }
-
             let divStyle = {
                 background: 'url(' + project.image + ') center/cover',
                 color: 'white',
                 height:'176px',
             };
+        
+            let icons_content = [];
+
+            for (let icon of project.icons) {
+                icons_content.push(
+                    <a href={icon.link} rel="noopener noreferrer" target="_blank">
+                    <i className={icon.icon} aria-hidden="true"/></a>
+                );
+            }
 
             projects_content.push(
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                        <CardTitle style={divStyle}> <h2 className="mdl-card__title-text">{project.title}</h2> </CardTitle>
-                        <CardText>{project.text}</CardText>
-                        <CardActions border>
-                            {buttons_content}
-                        </CardActions>
-                        <CardMenu style={{color:'white'}}>
-                            <IconButton name='share'/>
-                        </CardMenu>
+                    <CardTitle style={divStyle}> <h2 className="mdl-card__title-text">{project.title}</h2></CardTitle>
+                    <CardText className="CardText" >{project.text} {icons_content}</CardText>
                 </Card>
             );
         }
